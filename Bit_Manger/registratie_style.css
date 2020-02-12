@@ -1,0 +1,13 @@
+.background {
+    background-color: black;
+}
+
+.border {
+    border: 4px solid orangered;
+    border-radius: 8px;
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+    color: greenyellow;
+    text-align: center;
+}
