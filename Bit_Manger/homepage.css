@@ -1,115 +1,115 @@
-    <<<<<<< HEAD .background {
-    background-color: black;
-}
-
-.sidebar a:hover {
-    color: orangered;
-}
-
-.sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: greenyellow;
-    display: block;
-}
-
-.sidebar {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: black;
-    overflow-x: hidden;
-    padding-top: 20px;
-    width: 14%;
-    border: 3px solid orangered;
-    border-radius: 8px;
-}
-
-.wrapper {
-    position: absolute;
-    top: 15%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-}
-
-.search-box {
-    width: 450px;
-    height: 100px;
-    position: relative;
-}
-
-.input {
-    position: absolute;
-    top: 20px;
-    right: 50px;
-    box-sizing: border-box;
-    width: 300px;
-    height: 63px;
-    padding: 0 20px;
-    outline: none;
-    font-size: 18px;
-    border-radius: 50px;
-    color: #29313a;
-    border: 3px solid orangered;
-    transition: all 0.8s ease;
-}
-
- ::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: greenyellow;
-}
-
- ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: greenyellow;
-}
-
- :-ms-input-placeholder {
-    /* IE 10+ */
-    color: greenyellow;
-}
-
- :-moz-placeholder {
-    /* Firefox 18- */
-    color: greenyellow;
-}
-
-.button {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    background: orangered;
-    border-radius: 50%;
-    right: 45px;
-    top: 10px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 80px;
-    font-size: 20px;
-    color: greenyellow;
-    transition: all 0.8s ease;
-}
-
-.logout {
-    display: flex;
-    margin-top: 530px;
-}
-
-.tabel {
-    border: orangered;
-    color: orangered;
-    box-sizing: border-box;
-    border-style: solid;
-    height: 475px;
-    width: 75%;
-    margin-top: 75px;
-    margin-left: 300px;
-}
-
-.logo {
-    margin-left: 350px;
-    margin-top: 30px;
+      .background {
+      background-color: black;
+  }
+  
+  .sidebar a:hover {
+      color: orangered;
+  }
+  
+  .sidebar a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: greenyellow;
+      display: block;
+  }
+  
+  .sidebar {
+      height: 100%;
+      width: 160px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: black;
+      overflow-x: hidden;
+      padding-top: 20px;
+      width: 14%;
+      border: 3px solid orangered;
+      border-radius: 8px;
+  }
+  
+  .wrapper {
+      position: absolute;
+      top: 15%;
+      left: 75%;
+      transform: translate(-50%, -50%);
+  }
+  
+  .search-box {
+      width: 450px;
+      height: 100px;
+      position: relative;
+  }
+  
+  .input {
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      box-sizing: border-box;
+      width: 300px;
+      height: 63px;
+      padding: 0 20px;
+      outline: none;
+      font-size: 18px;
+      border-radius: 50px;
+      color: #29313a;
+      border: 3px solid orangered;
+      transition: all 0.8s ease;
+  }
+  
+   ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: greenyellow;
+  }
+  
+   ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: greenyellow;
+  }
+  
+   :-ms-input-placeholder {
+      /* IE 10+ */
+      color: greenyellow;
+  }
+  
+   :-moz-placeholder {
+      /* Firefox 18- */
+      color: greenyellow;
+  }
+  
+  .button {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background: orangered;
+      border-radius: 50%;
+      right: 45px;
+      top: 10px;
+      cursor: pointer;
+      text-align: center;
+      line-height: 80px;
+      font-size: 20px;
+      color: greenyellow;
+      transition: all 0.8s ease;
+  }
+  
+  .logout {
+      display: flex;
+      margin-top: 530px;
+  }
+  
+  .tabel {
+      border: orangered;
+      color: orangered;
+      box-sizing: border-box;
+      border-style: solid;
+      height: 475px;
+      width: 75%;
+      margin-top: 75px;
+      margin-left: 300px;
+  }
+  
+  .logo {
+      margin-left: 350px;
+      margin-top: 30px;
