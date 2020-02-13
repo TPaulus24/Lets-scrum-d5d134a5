@@ -29,44 +29,88 @@
     border-radius: 8px;
 }
 
-.wrap {
-    float: right;
+.wrapper {
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    transform: translate(-50%, -50%);
 }
 
-.search {
+.search-box {
+    width: 450px;
+    height: 100px;
+    position: relative;
+}
+
+.input {
+    position: absolute;
+    top: 20px;
+    right: 50px;
     box-sizing: border-box;
-    width: 350px;
+    width: 300px;
     height: 63px;
-    border: 3px solid orangered;
-    border-radius: 50px;
     padding: 0 20px;
     outline: none;
     font-size: 18px;
-    color: black;
+    border-radius: 50px;
+    color: #29313a;
+    border: 3px solid orangered;
     transition: all 0.8s ease;
-    top: 20px;
-    right: 300px;
 }
 
-::-webkit-input-placeholder {
+ ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
     color: greenyellow;
 }
 
-::-moz-input-placeholder {
+ ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: greenyellow;
+}
+
+ :-ms-input-placeholder {
+    /* IE 10+ */
+    color: greenyellow;
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
     color: greenyellow;
 }
 
 .button {
-    color: greenyellow;
+    position: absolute;
     width: 80px;
     height: 80px;
+    background: orangered;
     border-radius: 50%;
-    background-color: blue;
-    top: 10px;
     right: 45px;
+    top: 10px;
+    cursor: pointer;
     text-align: center;
     line-height: 80px;
     font-size: 20px;
-    color: ;
+    color: greenyellow;
     transition: all 0.8s ease;
+}
+
+.logout {
+    display: flex;
+    margin-top: 530px;
+}
+
+.tabel {
+    border: orangered;
+    color: orangered;
+    box-sizing: border-box;
+    border-style: solid;
+    height: 475px;
+    width: 75%;
+    margin-top: 75px;
+    margin-left: 300px;
+}
+
+.logo {
+    margin-left: 350px;
+    margin-top: 30px;
 }
