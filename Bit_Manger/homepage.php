@@ -30,6 +30,41 @@
         </div>
     </div>
 
+    <div class="container">
+        <h2 class="letter">Wachtwoord Generator</h2>
+        <div class="result-container">
+            <span id="result"></span>
+            <button class="btn" id="clipboard">
+                <i class="far fa-clipboard"></i>
+            </button>
+        </div>
+        <div class="settings">
+            <div class="setting">
+                <label class="letter">Wachtwoord lengte</label>
+                <input type="number" id="length" min='4' max='20' value='20' />
+            </div>
+            <div class="setting">
+                <label class="letter">Hooftletters toevoegen</label>
+                <input type="checkbox" id="uppercase" checked />
+            </div>
+            <div class="setting">
+                <label class="letter">letters toevoegen</label>
+                <input type="checkbox" id="lowercase" checked />
+            </div>
+            <div class="setting">
+                <label class="letter">Nummers toevoegen</label>
+                <input type="checkbox" id="numbers" checked />
+            </div>
+            <div class="setting">
+                <label class="letter">symbolen toevoegen</label>
+                <input type="checkbox" id="symbols" checked />
+            </div>
+        </div>
+        <button class="btn btn-large" id="generate">
+            Genereer Wachtwoord
+        </button>
+    </div>
+
     <div class="tabel">
 
 
@@ -38,8 +73,9 @@
 
 
 
-</body>
 
-<script src="https://kit.fontawesome.com/8d581dbd68.js" crossorigin="anonymous"></script>
 </body>
-
+<script src="genarator.js"></script>
+<script src="https://kit.fontawesome.com/8d581dbd68.js" crossorigin="anonymous">
+</script>
+</body>
