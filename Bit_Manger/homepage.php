@@ -14,8 +14,8 @@
 
     <div class="sidebar">
         <a href="Account">Account</a>
-        <a href="addpass">Wachtwoord toevoegen</a>
-        <a href="help">Help</a>
+        <a class="addpass" href="ww_aanmaak.php">Wachtwoord toevoegen</a>
+        <a class="help" href="hulp_page.php">Help</a>
         <a class="logout" href="Login.php">Uitloggen</a>
     </div>
     <div class="logo">

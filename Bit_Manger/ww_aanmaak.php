@@ -15,7 +15,7 @@
         <form>
             <h3>Naam Wachtwoord:</h3>
             <input type="text" style="border-radius: 5px;" name="wwname" required><br>
-            <h3>Password:</h3>
+            <h3>Wachtwoord:</h3>
             <input type="text" style="border-radius: 5px;" name="Password" required><br>
             <h3>Link toevoegen:</h3>
             <input type="text" style="border-radius: 5px;" name="Link" ><br><br>

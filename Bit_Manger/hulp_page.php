@@ -13,7 +13,7 @@
     <div class="border">
         <img src="img/Bit.png" alt="logo">
         <form>
-            <h2>Hoe werkt deze manager?</h2>
+            <h2>Hoe werkt Bit_Manager?</h2>
             <p>Bit_Manager is bedoet als een password manager om wachtwoorden simple opteslaan.
                door middel van een account te maken hoeft u nog maar 1 wachtwoord te onthouden.
                 zo dra je in gelogt bent klik op de knop wachtwoord toevoegen en geeft de wachtwoord een naam en klik op toevoegen.
@@ -21,7 +21,7 @@
             <h2>wachtwoord vergeten?</h2>
             <p>Bent u uw wachtwoord vergeten ga terug naar de login en klik op de knop wachtwoord vergeten.</p><br>
             <h2>Nog meer vragen?</h2>
-            <p>Heeft u eventueel nog meer vraagen neem dan contact op met ons via blabla@hotmail.com en we helpen u graag veder.</p>
+            <p>Heeft u eventueel nog meer vraagen neem dan contact op met ons via Info@bit_manager.nl en we helpen u graag veder.</p>
            
         </form>
     </div>
