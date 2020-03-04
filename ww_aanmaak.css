@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.border{
+
+    text-align: center;
+    width: 50%;
+    border: 3px solid orangered;
+    border-radius: 8px;
+    margin: auto;
+    padding: 5px;
+    color:greenyellow;
+}
+
+.border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

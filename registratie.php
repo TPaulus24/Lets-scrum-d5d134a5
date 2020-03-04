@@ -1,5 +1,4 @@
-<?php
-
+<?php   
 require 'connect.php';
 
 if (isset($_POST['account'])) {
@@ -9,7 +8,7 @@ if (isset($_POST['account'])) {
     $email = $_POST['email'];
     $wachtwoord = $_POST['pass'];
 
-    $createaccount = "INSERT INTO users(voornaam, achternaam, geboortedatum, email, wachtwoord)VALUES (?, ?, ?, ?, ?)";
+    $createaccount = "INSERT INTO users(naam, achternaam, DOB, username, password)VALUES (?, ?, ?, ?, ?)";
 
     $pdo->prepare($createaccount)->execute([$voornaam, $achternaam, $geboortedatum, $email, $wachtwoord]);
 }

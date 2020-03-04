@@ -1,3 +1,6 @@
+<?php
+require 'connect.php';
+?>
 <!DOCTYPE html>
 <html class="background">
 
@@ -11,12 +14,11 @@
 </head>
 
 <body>
-
     <div class="sidebar">
         <a href="Account">Account</a>
-        <a href="addpass">Wachtwoord toevoegen</a>
-        <a href="help">Help</a>
-        <a class="logout" href="logout">Uitloggen</a>
+        <a href="ww_aanmaak.php">Wachtwoord toevoegen</a>
+        <a href="hulp_page.php">Help</a>
+        <a class="logout" href="Login.php">Uitloggen</a>
     </div>
     <div class="logo">
         <img src="img/Bit.png" alt="logo">
@@ -66,10 +68,6 @@
     </div>
 
 
-
-
-</body>
-
 <script src="https://kit.fontawesome.com/8d581dbd68.js" crossorigin="anonymous"></script>
 </body>
-
+</html>
