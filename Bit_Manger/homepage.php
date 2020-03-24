@@ -76,6 +76,6 @@
 
 </body>
 <script src="genarator.js"></script>
-<script src="https://kit.fontawesome.com/8d581dbd68.js" crossorigin="anonymous">
-</script>
-</body>
+<script src="https://kit.fontawesome.com/8d581dbd68.js" crossorigin="anonymous"></script>
+
+</html>
