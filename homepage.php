@@ -16,7 +16,7 @@ $usName = $_SESSION['username'];
 
 <body>
     <div class="sidebar">
-        <a href="Account">Account</a>
+        <a href="account.php">Account</a>
         <a class="addpass" href="ww_aanmaak.php">Wachtwoord toevoegen</a>
         <a class="help" href="hulp_page.php">Help</a>
         <a class="logout" href="Login.php">Uitloggen</a>
@@ -67,7 +67,7 @@ $usName = $_SESSION['username'];
         <?php
         $stmt = $pdo->query("SELECT user, wwNaam, wachtwoord, link FROM accounts WHERE user LIKE '$usName'");
         foreach ($stmt as $row) {
-            echo "<p class='letter'>" . $row['wwNaam'] . " | " . $row['wachtwoord'] . " | <a href='http://" . $row['link'] . "'>". $row['link'] . "</a><br>";
+            echo "<p class='letter'><a href='http://" . $row['link'] . "'>" . $row['wwNaam'] . "</a> | " . $row['wachtwoord'] . "<br>";
         }
         ?>
     </div>
