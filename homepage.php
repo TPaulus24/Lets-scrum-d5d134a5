@@ -44,24 +44,29 @@ $usName = $_SESSION['username'];
         </div>
         <div class="settings">
             <div class="setting">
-                <label class="letter" for="length">Wachtwoord Lengte</label>
-                <input type="number" id="length" min="4" max="20" value="20"></input>
+                <label class="letter">Wachtwoord lengte</label>
+                <input type="number" id="length" min='4' max='20' value='20' />
             </div>
             <div class="setting">
-                <label class="letter" for="uppercase">Hoofdletters Bevatten</label>
-                <input type="checkbox" id="uppercase" checked></input>
+                <label class="letter">Hooftletters toevoegen</label>
+                <input type="checkbox" id="uppercase" checked />
             </div>
             <div class="setting">
-                <label class="letter" for="numbers">Nummers Bevatten</label>
-                <input type="checkbox" id="numbers" checked></input>
+                <label class="letter">letters toevoegen</label>
+                <input type="checkbox" id="lowercase" checked />
             </div>
             <div class="setting">
-                <label class="letter" for="symbols">Symbolen Toevoegen</label>
-                <input type="checkbox" id="symbols" checked></label>
+                <label class="letter">Nummers toevoegen</label>
+                <input type="checkbox" id="numbers" checked />
+            </div>
+            <div class="setting">
+                <label class="letter">symbolen toevoegen</label>
+                <input type="checkbox" id="symbols" checked />
             </div>
         </div>
-        <button class="btn btn-large" id="genarate">Wachtwoord Genereren</button>
-
+        <button class="btn btn-large" id="generate">
+            Genereer Wachtwoord
+        </button>
     </div>
     <div class="tabel">
         <?php

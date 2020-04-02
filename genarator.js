@@ -53,12 +53,12 @@ function generatePassword(lower, upper, number, symbol, length) {
         item => Object.values(item)[0]
     );
 
-    // Doesn't have a selected type
+    // heeft geen geselecteerd type
     if (typesCount === 0) {
         return "";
     }
 
-    // create a loop
+    // maakt een loop
     for (let i = 0; i < length; i += typesCount) {
         typesArr.forEach(type => {
             const funcName = Object.keys(type)[0];
