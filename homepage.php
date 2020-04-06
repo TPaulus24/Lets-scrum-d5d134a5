@@ -1,6 +1,12 @@
 <?php
 require 'connect.php';
 $usName = $_SESSION['username'];
+
+if(isset($_POST['zoeken'])) {
+    $zoekvar = $_POST['zoeken'];
+}else{
+    $zoekvar = "";
+}
 ?>
 <!DOCTYPE html>
 <html class="background">
@@ -26,7 +32,10 @@ $usName = $_SESSION['username'];
     </div>
     <div class="wrapper">
         <div class="search-box">
-            <input type="text" placeholder="Search" class="input">
+        <form method="POST" action="">
+            <input name="zoeken" type="text" placeholder="Search" class="input">
+            <button class="button" type="submit" aria-hidden="true">
+        </form>
             <div class="button">
                 <i class="fa fa-search" aria-hidden="true"></i>
             </div>
@@ -70,7 +79,7 @@ $usName = $_SESSION['username'];
     </div>
     <div class="tabel">
         <?php
-        $stmt = $pdo->query("SELECT user, wwNaam, wachtwoord, link FROM accounts WHERE user LIKE '$usName'");
+        $stmt = $pdo->query("SELECT user, wwNaam, wachtwoord, link FROM accounts WHERE user LIKE '$usName'AND wwNaam LIKE '%$zoekvar%'");
         foreach ($stmt as $row) {
             echo "<p class='letter'><a href='http://" . $row['link'] . "'>" . $row['wwNaam'] . "</a> | " . $row['wachtwoord'] . "<br>";
         }
