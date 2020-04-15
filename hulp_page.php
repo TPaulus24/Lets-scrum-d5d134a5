@@ -6,6 +6,7 @@
     <link rel="icon" type="icon.png" href="img/bit(1).png">
     <link rel="stylesheet" type="text/css" href="hulp_page.css">
 </head>
+<a href="homepage.php">Terug</a>
 
 <body>
 

@@ -24,8 +24,9 @@ if(isset($_POST['zoeken'])) {
     <div class="sidebar">
         <a href="account.php">Account</a>
         <a class="addpass" href="ww_aanmaak.php">Wachtwoord toevoegen</a>
+        <a class="edditpass" href="ww_aanpassen.php">Wachtwoord aanpassen</a>
         <a class="help" href="hulp_page.php">Help</a>
-        <a class="logout" href="Login.php">Uitloggen</a>
+        <a class="logout" href="index.php">Uitloggen</a>
     </div>
     <div class="logo">
         <img src="img/Bit.png" alt="logo">
@@ -36,9 +37,7 @@ if(isset($_POST['zoeken'])) {
             <input name="zoeken" type="text" placeholder="Search" class="input">
             <button class="button" type="submit" aria-hidden="true">
         </form>
-            <div class="button">
                 <i class="fa fa-search" aria-hidden="true"></i>
-            </div>
         </div>
     </div>
 
@@ -81,7 +80,7 @@ if(isset($_POST['zoeken'])) {
         <?php
         $stmt = $pdo->query("SELECT user, wwNaam, wachtwoord, link FROM accounts WHERE user LIKE '$usName'AND wwNaam LIKE '%$zoekvar%'");
         foreach ($stmt as $row) {
-            echo "<p class='letter'><a href='http://" . $row['link'] . "'>" . $row['wwNaam'] . "</a> | " . $row['wachtwoord'] . "<br>";
+            echo "<p class='letter'><a href=" . $row['link'] . ">" . $row['wwNaam'] . "</a> | " . $row['wachtwoord'] . "<br>";
         }
         ?>
     </div>

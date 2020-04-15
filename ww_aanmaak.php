@@ -23,6 +23,8 @@ if (isset($_POST['toevoegen'])) {
     <link rel="icon" type="icon.png" href="img/bit(1).png">
     <link rel="stylesheet" type="text/css" href="ww_aanmaak.css">
 </head>
+<a class="home_back" href="homepage.php">terug</a>
+
 
 <body>
 

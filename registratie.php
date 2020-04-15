@@ -29,6 +29,7 @@ if (isset($_POST['account'])) {
 </head>
 
 <body>
+<a class="login_back" href="index.php">terug</a>
 
     <div class="border">
         <img src="img/Bit.png" alt="logo">
