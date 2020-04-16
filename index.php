@@ -61,7 +61,7 @@ if (isset($_POST['login'])) {
 		}
 		?>
 		<form method="POST" action="">
-			<h3>Login Name:</h3>
+			<h3>E-Mail:</h3>
 			<input type="text" style="border-radius: 5px;" name="username"><br>
 			<h3>Password:</h3>
 			<input type="password" style="border-radius: 5px;" name="password"><br><br>
