@@ -76,8 +76,8 @@ if(isset($_POST['zoeken'])) {
         </button>
     </div>
     <div class="tabel">
-            <form action="ww_aanmaak.php">
-                <button class="aanmaak" type="submit" style="border-radius: 5px; color: yellowgreen; background-color: orangered;"> + Wachtwoord </button>
+           <form action="ww_aanmaak.php">
+                <button class="aanmaak" type="submit" style="border-radius: 5px; color: yellowgreen; background-color: orangered; display: flex; justify-content: flex-end; align-items: flex-end;"> + Wachtwoord </button>
             </form>
 
         <?php
@@ -85,7 +85,8 @@ if(isset($_POST['zoeken'])) {
         foreach ($stmt as $row) {
             echo "<p class='letter'><a href=" . $row['link'] . ">" . $row['wwNaam'] . "</a> | " . $row['wachtwoord'] . "<br>";
         }
-        ?>
+        ?> 
+        
     </div>
 
     <script src="genarator.js"></script>
