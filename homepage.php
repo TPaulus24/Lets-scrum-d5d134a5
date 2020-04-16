@@ -23,7 +23,6 @@ if(isset($_POST['zoeken'])) {
 <body>
     <div class="sidebar">
         <a href="account.php">Account</a>
-        <a class="addpass" href="ww_aanmaak.php">Wachtwoord toevoegen</a>
         <a class="edditpass" href="ww_aanpassen.php">Wachtwoord aanpassen</a>
         <a class="help" href="hulp_page.php">Help</a>
         <a class="logout" href="index.php">Uitloggen</a>
@@ -53,7 +52,7 @@ if(isset($_POST['zoeken'])) {
         <div class="settings">
             <div class="setting">
                 <label class="letter">Wachtwoord lengte</label>
-                <input type="number" id="length" min='4' max='20' value='20' />
+                <input type="number" id="length" min='8' max='20' value='15' />
             </div>
             <div class="setting">
                 <label class="letter">Hooftletters toevoegen</label>
@@ -77,6 +76,10 @@ if(isset($_POST['zoeken'])) {
         </button>
     </div>
     <div class="tabel">
+            <form action="ww_aanmaak.php">
+                <button class="aanmaak" type="submit" style="border-radius: 5px; color: yellowgreen; background-color: orangered;"> + Wachtwoord </button>
+            </form>
+
         <?php
         $stmt = $pdo->query("SELECT user, wwNaam, wachtwoord, link FROM accounts WHERE user LIKE '$usName'AND wwNaam LIKE '%$zoekvar%'");
         foreach ($stmt as $row) {
