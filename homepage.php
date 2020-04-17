@@ -77,7 +77,7 @@ if(isset($_POST['zoeken'])) {
     </div>
     <div class="tabel">
            <form action="ww_aanmaak.php">
-                <button class="aanmaak" type="submit" style="border-radius: 5px; color: yellowgreen; background-color: orangered; display: flex; justify-content: flex-end; align-items: flex-end;"> + Wachtwoord </button>
+                <button class="aanmaak" type="submit" style="border-radius: 50%; color: yellowgreen; background-color: orangered; display: flex; justify-content: flex-end; align-items: flex-end; padding: 10px 15px; border-color: black;"> + </button>
             </form>
 
         <?php
