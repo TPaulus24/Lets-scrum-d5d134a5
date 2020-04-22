@@ -1,9 +1,9 @@
 <?php
 session_start();
 $host = 'localhost';
-$db   = 'bit_manager';
-$user = 'root';
-$pass = '';
+$db   = 'bit-manager';
+$user = 'bit-manager';
+$pass = 'S6%ye58v';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
